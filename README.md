@@ -2,15 +2,18 @@ Hexo+Github部署自己的个人博客
 ===
 
 **1、准备工作**
+
 你必须要有的
 
 GitHub账号
 安装node.js、npm和Git环境
 
 **2、创建仓库**
+
 新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 http://test.github.io
 
 **3、配置SSH key**
+
 提交代码肯定要拥有你的github权限才可以，但是直接使用用户名和密码太不安全了，所以我们使用ssh key来解决本地和服务器的连接问题。
 
 ```
